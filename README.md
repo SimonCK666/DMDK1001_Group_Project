@@ -4,7 +4,9 @@ Data Mining and Knowledge Discovery (1001) Group Project
 
 ## 1. Project Question
 
-![groupProject.png](/Users/simon.yang/Desktop/DMKD-Data-Mining-and-Knowledge-Discovery/groupProject.png)
+![](groupProject.png)
+
+
 
 ---
 
@@ -42,7 +44,7 @@ python main.py
 
 ## 5. Example Result
 
-![example.jpeg](/Users/simon.yang/Desktop/DMDK1001_Group_Project/example.jpeg)
+![example.jpeg](example.jpeg)
 
 ---
 
