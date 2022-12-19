@@ -57,6 +57,15 @@ python sklearn_kmeans.py
 
 ---
 
+
+### 4.4 Confusion Matrix for Evaluation
+
+```python
+python eval.py --img (str) (str)
+```
+
+---
+
 ## 5. Example Result
 
 ### 5.1 cv2 Kmeans Method Result (3 clusters)
