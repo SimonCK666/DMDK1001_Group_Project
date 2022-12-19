@@ -61,9 +61,11 @@ print("Result shape is: " + str(dst.shape))
 res_title = 'Kmeans Result' + '_k' + str(K)
 titles = [u'Original Image', res_title]
 images = [img, dst]
-for i in range(2):
-    plt.subplot(1, 2, i+1), plt.imshow(images[i], 'gray'), 
-    plt.title(titles[i])  
-    plt.xticks([]),plt.yticks([])
-    plt.show()
+
+cv2.imwrite('res_our.png', dst*256//(K-1))
+# for i in range(2):
+#     plt.subplot(1, 2, i+1), plt.imshow(images[i], 'gray'), 
+#     plt.title(titles[i])  
+#     plt.xticks([]),plt.yticks([])
+#     plt.show()
     

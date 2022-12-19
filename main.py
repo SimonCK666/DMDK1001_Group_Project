@@ -25,13 +25,13 @@ img_path = args.img
 # number of clusters
 K = args.clustersNum
 
-# output folder, if the res forlder does not exist, create one
-output_dir = 'res'
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
-img_name = str(img_path).split('/')[1]
-res_name = 'res_' + 'K' + str(K) + "_" + img_name
-res_path = output_dir + '/' + res_name
+# # output folder, if the res forlder does not exist, create one
+# output_dir = 'res'
+# if not os.path.exists(output_dir):
+#     os.makedirs(output_dir)
+# img_name = str(img_path).split('/')[1]
+# res_name = 'res_' + 'K' + str(K) + "_" + img_name
+# res_path = output_dir + '/' + res_name
 
 '''
     load input image
@@ -87,6 +87,6 @@ res = center[label.flatten()]
 res2 = res.reshape((img.shape))
 
 # write result image
-cv2.imwrite(res_path, res2)
-print("The result image is written as " + res_path)
+cv2.imwrite('res_K3.png', res2)
+print("The result image is written as " + 'out.png')
 

@@ -19,3 +19,10 @@ def config_parser():
                         help='number of clusters')
     
     return parser
+
+def config_parser_eval():
+
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("--img",dest="list",nargs='+',help="img file paths by two")
+    
+    return parser
