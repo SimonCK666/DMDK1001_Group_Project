@@ -1,0 +1,168 @@
+img res\res_our_a.png (106800,), cluster 3
+img res\res_K3_a.png (106800,), cluster 3
+confusion matrix
+       73     127    202
+73   35148    426      0
+127   1789  41307   2999
+206      0   1377  23754
+evaluation matrix
+            accuracy     error    recall  precision
+(73, 73)    0.979260  0.020740  0.951566   0.988025
+(127, 127)  0.938287  0.061713  0.958177   0.896128
+(206, 202)  0.959026  0.040974  0.887900   0.945207
+
+img res\res_our_b.png (50232,), cluster 3
+img res\res_K3_b.png (50232,), cluster 3
+confusion matrix
+      76     153    201
+80   9460   1379      0
+157   130  23369   1770
+203     0    729  13395
+evaluation matrix
+            accuracy     error    recall  precision
+(80, 76)    0.969959  0.030041  0.986444   0.872774
+(157, 153)  0.920210  0.079790  0.917259   0.924809
+(203, 201)  0.950251  0.049749  0.883284   0.948386
+
+img res\res_our_c.png (2073600,), cluster 3
+img res\res_K3_c.png (2073600,), cluster 3
+confusion matrix
+        123     163     228
+110  516057    5322       0
+157  340949  853420     552
+225       0   37394  319906
+evaluation matrix
+            accuracy    error    recall  precision
+(110, 123)   0.83301  0.16699  0.602163   0.989792
+(157, 163)   0.81471  0.18529  0.952333   0.714206
+(225, 228)   0.98170  0.01830  0.998277   0.895343
+
+img res\res_our_d.png (230400,), cluster 3
+img res\res_K3_d.png (230400,), cluster 3
+confusion matrix
+       30      99     191
+29   89644     508      0
+98    2638  102740    497
+187      0    3924  30449
+evaluation matrix
+            accuracy     error    recall  precision
+(29, 30)    0.986345  0.013655  0.971414   0.994365
+(98, 99)    0.967157  0.032843  0.958646   0.970390
+(187, 191)  0.980812  0.019188  0.983940   0.885841
+
+img res\res_our_e.png (492608,), cluster 3
+img res\res_K3_e.png (492608,), cluster 3
+confusion matrix
+        64      151     213
+61   112529    1767       0
+149   10329  139099   11506
+214       0    8655  208723
+evaluation matrix
+            accuracy     error    recall  precision
+(61, 64)    0.975445  0.024555  0.915927   0.984540
+(149, 151)  0.934518  0.065482  0.930297   0.864323
+(214, 213)  0.959073  0.040927  0.947754   0.960185
+
+img res\res_our_f.png (540000,), cluster 3
+img res\res_K3_f.png (540000,), cluster 3
+confusion matrix
+        46      131     217
+44   230500      71       0
+121   13494  167313      15
+210       0   24036  104571
+evaluation matrix
+            accuracy     error    recall  precision
+(44, 46)    0.974880  0.025120  0.944695   0.999692
+(121, 131)  0.930341  0.069659  0.874062   0.925291
+(210, 217)  0.955461  0.044539  0.999857   0.813105
+
+img res\res_our_g.png (143100,), cluster 3
+img res\res_K3_g.png (143100,), cluster 3
+confusion matrix
+       145    178    241
+125  32883   2857      0
+170  41874  23499    640
+241      0   1811  39536
+evaluation matrix
+            accuracy     error    recall  precision
+(125, 145)  0.687414  0.312586  0.439865   0.920062
+(170, 178)  0.670287  0.329713  0.834274   0.355975
+(241, 241)  0.982872  0.017128  0.984070   0.956200
+
+img res\res_our_h.png (50416,), cluster 3
+img res\res_K3_h.png (50416,), cluster 3
+confusion matrix
+       80    137   215
+79   32958   180     0
+131   2318  8701     2
+214      0   262  5995
+evaluation matrix
+            accuracy     error    recall  precision
+(79, 80)    0.950452  0.049548  0.934290   0.994568
+(131, 137)  0.945216  0.054784  0.951657   0.789493
+(214, 215)  0.994764  0.005236  0.999666   0.958127
+
+img res\res_our_j.png (50325,), cluster 3
+img res\res_K3_j.png (50325,), cluster 3
+confusion matrix
+       41     98     157
+41   16051    150      0
+97     377  14630     25
+157      0    579  18513
+evaluation matrix
+            accuracy     error    recall  precision
+(41, 41)    0.989528  0.010472  0.977051   0.990741
+(97, 98)    0.977526  0.022474  0.952536   0.973257
+(157, 157)  0.987998  0.012002  0.998651   0.969673
+
+img res\res_our_k.png (50410,), cluster 3
+img res\res_K3_k.png (50410,), cluster 3
+confusion matrix
+       33     120    159
+30   10617      0      0
+109    863  16078    285
+153      0   8016  14551
+evaluation matrix
+            accuracy     error    recall  precision
+(30, 33)    0.982880  0.017120  0.924826   1.000000
+(109, 120)  0.818211  0.181789  0.667303   0.933357
+(153, 159)  0.835330  0.164670  0.980790   0.644791
+
+img res\res_our_l.png (251535,), cluster 3
+img res\res_K3_l.png (251535,), cluster 3
+confusion matrix
+       75     122    228
+75   82743   2102      0
+122   4381  84046   1268
+229      0    823  76172
+evaluation matrix
+            accuracy     error    recall  precision
+(75, 75)    0.974226  0.025774  0.949715   0.975225
+(122, 122)  0.965913  0.034087  0.966368   0.937020
+(229, 228)  0.991687  0.008313  0.983626   0.989311
+
+img res\res_our_m.png (251535,), cluster 3
+img res\res_K3_m.png (251535,), cluster 3
+confusion matrix
+       75      135    210
+76   52463    4213      0
+138   3017  131010   6700
+215      0     186  53946
+evaluation matrix
+            accuracy     error    recall  precision
+(76, 75)    0.971256  0.028744  0.945620   0.925665
+(138, 135)  0.943881  0.056119  0.967513   0.930951
+(215, 210)  0.972624  0.027376  0.889523   0.996564
+
+img res\res_our_Lenna.png (193600,), cluster 3
+img res\res_K3_Lenna.png (193600,), cluster 3
+confusion matrix
+       61     127    180
+0    48390      0      0
+128   3572  73521    807
+255      0  15523  51787
+evaluation matrix
+            accuracy     error    recall  precision
+(0, 61)     0.981550  0.018450  0.931257   1.000000
+(128, 127)  0.897200  0.102800  0.825670   0.943787
+(255, 180)  0.915651  0.084349  0.984656   0.769380

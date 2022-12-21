@@ -13,8 +13,8 @@ a2 = np.array(i2).reshape((-1,))
 c1 = np.unique(a1)
 c2 = np.unique(a2)
 
-print("img 1 {}, cluster {}".format(a1.shape,len(c1)))
-print("img 2 {}, cluster {}".format(a2.shape,len(c2)))
+print("img {} {}, cluster {}".format(args.list[0],a1.shape,len(c1)))
+print("img {} {}, cluster {}".format(args.list[1],a2.shape,len(c2)))
 
 df = pd.DataFrame(0,index=c1, columns=c2)
 
