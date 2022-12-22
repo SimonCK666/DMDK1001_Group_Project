@@ -50,6 +50,20 @@ labels = Kmeans(K, Z)
 print("Labels shape is: " + str(labels.shape))
 
 '''
+    use average color of cluster as label
+'''
+sum = []
+aver = []
+for i in range(K):
+    sum.append([])
+for i in range(len(Z)):
+    sum[int(labels[i])].append(int(Z[i][0]))
+for i in range(K):
+    aver.append(np.mean(sum[i]))
+for i in range(len(Z)):
+    labels[i]=aver[int(labels[i])]
+
+'''
     reshape as final result image
 '''
 dst = labels.reshape((img.shape[0], img.shape[1]))
@@ -62,7 +76,7 @@ res_title = 'Kmeans Result' + '_k' + str(K)
 titles = [u'Original Image', res_title]
 images = [img, dst]
 
-cv2.imwrite('res_our.png', dst*256//(K-1))
+cv2.imwrite('res_our.png', dst)
 # for i in range(2):
 #     plt.subplot(1, 2, i+1), plt.imshow(images[i], 'gray'), 
 #     plt.title(titles[i])  
